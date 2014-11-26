@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script type="text/javascript" src="js/lib/requirejs/require.js" data-main="js/common"></script>
+        <script type="text/javascript">
+        function onLoad(){
+            require(['main'], function(m){
+              main = new m();
+              main.init();
+            });            
+        }
+        </script>
+    </head>
+    <body onload="onLoad();">
+      
+      skeleton app
+      
+    </body>
+</html>
